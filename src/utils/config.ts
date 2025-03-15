@@ -14,9 +14,9 @@ const templateConfig: TemplateConfig = {
   forceTheme: false,
   // Shows switch to toggle between dark and light modes
   showThemeSwitch: true,
-  appStoreLink: "/public/urbanroots.apk",
+  appStoreLink: "https://urbanrootsdownload.vercel.app/",
   googlePlayLink:
-    "/public/urbanroots.apk",
+    "https://urbanrootsdownload.vercel.app/",
   footer: {
     legalLinks: {
       termsAndConditions: true,

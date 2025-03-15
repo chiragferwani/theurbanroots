@@ -11,10 +11,10 @@ function AppRedirectionPage({ config }: Props) {
 
   useEffect(() => {
     const platform = getMobileOperatingSystem();
-    if (platform === "ios" && appStoreLink) window.location.href = "/public/urbanroots.apk";
+    if (platform === "ios" && appStoreLink) window.location.href = "https://urbanrootsdownload.vercel.app/";
     else if (platform === "android" && googlePlayLink)
-      window.location.href = "/public/urbanroots.apk";
-    else window.location.href = "/public/urbanroots.apk";
+      window.location.href = "https://urbanrootsdownload.vercel.app/";
+    else window.location.href = "https://urbanrootsdownload.vercel.app/";
   }, [googlePlayLink, appStoreLink]);
 
   return (
